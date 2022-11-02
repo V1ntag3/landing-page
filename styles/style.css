@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+body {
+    background: #23232e;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.logo {
+    font-size: 35px;
+    letter-spacing: 4px;
+}
+
+nav {
+    margin-top: 40px;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    height: 8vh;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+#botao{
+    padding: 15px;
+    border: 3px solid #bd2cb1;
+    border-radius: 30px;
+}
+#botao:hover{
+    opacity: 1;
+    background-color: #bd2cb1;
+}
+
+main{
+
+}
